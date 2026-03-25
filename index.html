@@ -1,10 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Live Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Forge Gym | Your Local Fitness Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
-<body style="background-color: #222; color: #fff; text-align: center; padding: 50px; font-family: sans-serif;">
-    <h1>Hello World!</h1>
-    <p>This is my digital apartment.</p>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">IRON FORGE</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop');">
+        <div class="hero-content animate-fade-up">
+            <h1>BUILD YOUR BEST SELF</h1>
+            <p>No contracts. No hidden fees. Just results.</p>
+            <a href="#contact" class="btn-primary">Join Today</a>
+        </div>
+    </header>
+
+    <section id="programs" class="programs-section">
+        <h2 class="section-title">Our Programs</h2>
+        <div class="card-container">
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=1000&auto=format&fit=crop" alt="Weightlifting">
+                <div class="card-content">
+                    <h3>Strength Training</h3>
+                    <p>Free weights, squat racks, and top-tier machines to build muscle.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1000&auto=format&fit=crop" alt="Cardio">
+                <div class="card-content">
+                    <h3>High-Intensity Cardio</h3>
+                    <p>Treadmills, rowers, and HIIT classes to burn fat fast.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1000&auto=format&fit=crop" alt="Personal Training">
+                <div class="card-content">
+                    <h3>Personal Training</h3>
+                    <p>1-on-1 coaching to ensure your form is perfect and goals are met.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <h2>Ready to start?</h2>
+        <p>123 Main Street, Your City | (555) 123-4567</p>
+        <p>Open 24/7 for Members</p>
+        <br>
+        <p style="color: #777; font-size: 14px;">© 2026 Iron Forge Gym. Built professionally by [Your Name].</p>
+    </footer>
+
 </body>
 </html>
